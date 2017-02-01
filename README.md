@@ -1,5 +1,7 @@
 # Code examples from How To Code book in Logo
 
+Git repository or it did not happen.
+
 ## Usage
 
 - Open ACSLogo apps
