@@ -12,3 +12,4 @@ Git repository or it did not happen.
 
 - Book: https://www.amazon.com/How-Code-Step-Step-Computer/dp/1454921773
 - Logo: http://www.alancsmith.co.uk/logo/
+- Commands: http://derrel.net/ep/logo/logo_com.htm
