@@ -2,8 +2,8 @@
 
 ## Usage
 
+- Open ACSLogo apps
 - Copy/paste .logo files to .acsl files
-- Open ACSLogo app
 - Select a command, a line or multiple lines with cursor and execute them with cmd+return
 
 ## Links
