@@ -13,7 +13,10 @@ Git repository or it did not happen.
 - there will be a folder `square.sb2`
 - inside the folder there will be `project.json` file
 - the script is in `"scripts"`
-- example:
+
+(From http://stackoverflow.com/a/29616114/17469)
+
+### Example script
 
     ...
      "scripts": [[55,
@@ -27,8 +30,6 @@ Git repository or it did not happen.
            ["turnRight:", 90],
            ["forward:", 60]]]],
     ...
-
-(From http://stackoverflow.com/a/29616114/17469)
 
 ## Links
 
