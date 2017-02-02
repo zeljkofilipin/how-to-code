@@ -1,0 +1,81 @@
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "backdrop1",
+			"baseLayerID": 3,
+			"baseLayerMD5": "739b5e2a2435f6e1ec2993791b423146.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5a7dd5e3e76630b0aad2bf9ec3840ae7.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Cat1",
+			"scripts": [[55,
+					194,
+					[["putPenDown"],
+						["forward:", 60],
+						["turnRight:", 90],
+						["forward:", 60],
+						["turnRight:", 90],
+						["forward:", 60],
+						["turnRight:", 90],
+						["forward:", 60]]]],
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": 0,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "cat1-a",
+					"baseLayerID": 1,
+					"baseLayerMD5": "f88bf1935daea28f8ca098462a31dbb0.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 50
+				},
+				{
+					"costumeName": "cat1-b",
+					"baseLayerID": 2,
+					"baseLayerMD5": "6e8bd9ae68fdb02b7e1e3df656a75635.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 72,
+			"scratchY": -13.999999999999915,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"videoOn": false,
+		"flashVersion": "MAC 24,0,0,194",
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
+		"scriptCount": 0,
+		"hasCloudData": false,
+		"swfVersion": "v453.1",
+		"spriteCount": 1
+	}
+}
