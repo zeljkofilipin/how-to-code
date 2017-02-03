@@ -17,7 +17,7 @@
 			"rotationCenterY": 180
 		}],
 	"currentCostumeIndex": 0,
-	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerMD5": "a311c5169a74d49a0c60a9e04a7e5906.png",
 	"penLayerID": 0,
 	"tempoBPM": 60,
 	"videoAlpha": 0.5,
@@ -26,7 +26,8 @@
 			"scripts": [[215, 144, [["whenKeyPressed", "w"], ["heading:", 0], ["forward:", 10]]],
 				[216, 248, [["whenKeyPressed", "s"], ["heading:", 180], ["forward:", 10]]],
 				[412, 191, [["whenKeyPressed", "d"], ["heading:", 90], ["forward:", 10]]],
-				[22, 201, [["whenKeyPressed", "a"], ["heading:", -90], ["forward:", 10]]]],
+				[22, 201, [["whenKeyPressed", "a"], ["heading:", -90], ["forward:", 10]]],
+				[41, 71, [["whenGreenFlag"], ["clearPenTrails"], ["putPenDown"]]]],
 			"sounds": [{
 					"soundName": "meow",
 					"soundID": 0,
@@ -52,10 +53,10 @@
 					"rotationCenterY": 55
 				}],
 			"currentCostumeIndex": 0,
-			"scratchX": -20,
-			"scratchY": -20,
-			"scale": 1,
-			"direction": 90,
+			"scratchX": -100,
+			"scratchY": 10.000000000000028,
+			"scale": 0.85,
+			"direction": -90,
 			"rotationStyle": "normal",
 			"isDraggable": false,
 			"indexInLibrary": 1,
@@ -66,10 +67,10 @@
 	"info": {
 		"videoOn": false,
 		"flashVersion": "MAC 24,0,0,194",
-		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
-		"scriptCount": 4,
+		"scriptCount": 5,
 		"hasCloudData": false,
 		"swfVersion": "v454",
-		"spriteCount": 1
+		"spriteCount": 1,
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36"
 	}
 }
