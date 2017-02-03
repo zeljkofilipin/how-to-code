@@ -23,10 +23,10 @@
 	"videoAlpha": 0.5,
 	"children": [{
 			"objName": "Sprite1",
-			"scripts": [[215, 144, [["whenKeyPressed", "g"], ["heading:", 0], ["forward:", 10]]],
-				[216, 248, [["whenKeyPressed", "i"], ["heading:", 180], ["forward:", 10]]],
+			"scripts": [[215, 144, [["whenKeyPressed", "w"], ["heading:", 0], ["forward:", 10]]],
+				[216, 248, [["whenKeyPressed", "s"], ["heading:", 180], ["forward:", 10]]],
 				[412, 191, [["whenKeyPressed", "d"], ["heading:", 90], ["forward:", 10]]],
-				[22, 201, [["whenKeyPressed", "l"], ["heading:", -90], ["forward:", 10]]]],
+				[22, 201, [["whenKeyPressed", "a"], ["heading:", -90], ["forward:", 10]]]],
 			"sounds": [{
 					"soundName": "meow",
 					"soundID": 0,
@@ -52,10 +52,10 @@
 					"rotationCenterY": 55
 				}],
 			"currentCostumeIndex": 0,
-			"scratchX": 10,
-			"scratchY": -50,
+			"scratchX": -20,
+			"scratchY": -20,
 			"scale": 1,
-			"direction": -90,
+			"direction": 90,
 			"rotationStyle": "normal",
 			"isDraggable": false,
 			"indexInLibrary": 1,
@@ -65,8 +65,8 @@
 		}],
 	"info": {
 		"videoOn": false,
-		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
 		"flashVersion": "MAC 24,0,0,194",
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
 		"scriptCount": 4,
 		"hasCloudData": false,
 		"swfVersion": "v454",
