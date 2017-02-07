@@ -23,7 +23,7 @@ Git repository or it did not happen.
 - Compress a folder
 - example: `square.sb2`
 - File `square.sb2.zip` will be created
-- Rename it to `square.sb2.zip`
+- Rename it to `square.sb2`
 - Upload it to online editor or Scratch application
 
 ## Example script
