@@ -2,9 +2,7 @@
 
 Git repository or it did not happen.
 
-# Scratch
-
-## Scratch to Git
+# Scratch to Git
 
 - Create a project with online editor or Scratch application
 - Save it to the computer
@@ -18,7 +16,7 @@ Git repository or it did not happen.
 
 (From http://stackoverflow.com/a/29616114/17469)
 
-## Git to Scratch 
+# Git to Scratch
 
 - Compress a folder
 - example: `square.sb2`
@@ -26,29 +24,8 @@ Git repository or it did not happen.
 - Rename it to `square.sb2`
 - Upload it to online editor or Scratch application
 
-## Example script
-
-    ...
-     "scripts": [[55,
-         194,
-         [["putPenDown"],
-           ["forward:", 60],
-           ["turnRight:", 90],
-           ["forward:", 60],
-           ["turnRight:", 90],
-           ["forward:", 60],
-           ["turnRight:", 90],
-           ["forward:", 60]]]],
-    ...
-
-# Logo
-
-- Open ACSLogo apps
-- Copy/paste .logo files to .acsl files
-- Select a command, a line or multiple lines with cursor and execute them with cmd+return
-
-## Links
+# Links
 
 - Book: https://www.amazon.com/How-Code-Step-Step-Computer/dp/1454921773
 - Scratch: https://scratch.mit.edu/
-- Logo: http://www.alancsmith.co.uk/logo/
+- Logo: http://www.calormen.com/jslogo/
