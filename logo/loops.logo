@@ -8,3 +8,12 @@ repeat 36 [fd 10 rt 10]
 repeat 4 [fd 100 rt 90]
 repeat 20 [fd 10]
 repeat 4 [fd 100 rt 90]
+
+repeat 4 [ fd 20 rt 90 ]
+repeat 8 [ repeat 4 [ fd 20 rt 90 ] fd 25 ]
+repeat 36 [ repeat 4 [ fd 50 rt 90 ] fd 10 ]
+repeat 36 [ repeat 4 [ fd 120 rt 90 ] rt 10 ]
+setpc 4
+repeat 36 [ repeat 4 [ fd 80 rt 90 ] rt 10 ]
+setpc 1
+repeat 36 [ repeat 4 [ fd 60 rt 90 ] rt 10 ]
