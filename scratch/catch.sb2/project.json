@@ -1,0 +1,76 @@
+{
+	"objName": "Stage",
+	"costumes": [{
+			"costumeName": "pozadina1",
+			"baseLayerID": 3,
+			"baseLayerMD5": "b61b1077b0ea1931abee9dbbfa7903ff.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Dog1",
+			"scripts": [[62,
+					65,
+					[["whenGreenFlag"], ["doForever", [["forward:", 1], ["pointTowards:", "Lik2"]]]]]],
+			"costumes": [{
+					"costumeName": "dog1-a",
+					"baseLayerID": 1,
+					"baseLayerMD5": "39ddefa0cc58f3b1b06474d63d81ef56.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 83,
+					"rotationCenterY": 80
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -168.95,
+			"scratchY": 143,
+			"scale": 0.4500000000000001,
+			"direction": 101.24695758663576,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 2,
+			"visible": true,
+			"spriteInfo": {
+			}
+		},
+		{
+			"objName": "Lik2",
+			"scripts": [[59,
+					36,
+					[["whenGreenFlag"],
+						["doUntil", ["touching:", "Dog1"], [["pointTowards:", "_mouse_"], ["forward:", 2]]]]]],
+			"costumes": [{
+					"costumeName": "kostim1",
+					"baseLayerID": 2,
+					"baseLayerMD5": "09dc888b0b7df19f70d81588ae73420e.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 150,
+			"scratchY": -109,
+			"scale": 0.65,
+			"direction": -117.12498916438952,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"videoOn": false,
+		"flashVersion": "MAC 24,0,0,194",
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
+		"scriptCount": 2,
+		"hasCloudData": false,
+		"swfVersion": "v454",
+		"spriteCount": 2
+	}
+}
