@@ -1,0 +1,53 @@
+{
+	"objName": "Stage",
+	"costumes": [{
+			"costumeName": "pozadina1",
+			"baseLayerID": 2,
+			"baseLayerMD5": "c64da3f2081dbf806360d2e30cadc73d.png",
+			"bitmapResolution": 2,
+			"rotationCenterX": 480,
+			"rotationCenterY": 360
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Lik1",
+			"scripts": [[84,
+					19,
+					[["whenGreenFlag"],
+						["xpos:", -200],
+						["ypos:", 100],
+						["doUntil", ["touchingColor:", -10077440], [["pointTowards:", "_mouse_"], ["forward:", 1]]]]]],
+			"costumes": [{
+					"costumeName": "kostim1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "09dc888b0b7df19f70d81588ae73420e.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": -114.65937455554558,
+			"scratchY": 109.61640576799616,
+			"scale": 0.65,
+			"direction": 86.39448136507393,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"videoOn": false,
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
+		"flashVersion": "MAC 24,0,0,194",
+		"scriptCount": 1,
+		"hasCloudData": false,
+		"swfVersion": "v454",
+		"spriteCount": 1
+	}
+}
