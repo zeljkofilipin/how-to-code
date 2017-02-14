@@ -20,7 +20,8 @@
 					[["whenGreenFlag"],
 						["xpos:", -200],
 						["ypos:", 100],
-						["doUntil", ["touchingColor:", -10077440], [["pointTowards:", "_mouse_"], ["forward:", 1]]]]]],
+						["doUntil", ["touchingColor:", -10077440], [["pointTowards:", "_mouse_"], ["forward:", 1]]],
+						["playDrum", 10, 1]]]],
 			"costumes": [{
 					"costumeName": "kostim1",
 					"baseLayerID": 1,
@@ -30,10 +31,10 @@
 					"rotationCenterY": 55
 				}],
 			"currentCostumeIndex": 0,
-			"scratchX": -114.65937455554558,
-			"scratchY": 109.61640576799616,
+			"scratchX": -114.73669655981851,
+			"scratchY": 110.94637119765586,
 			"scale": 0.65,
-			"direction": 86.39448136507393,
+			"direction": 83.27117638641268,
 			"rotationStyle": "normal",
 			"isDraggable": false,
 			"indexInLibrary": 1,
@@ -43,8 +44,8 @@
 		}],
 	"info": {
 		"videoOn": false,
-		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
 		"flashVersion": "MAC 24,0,0,194",
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
 		"scriptCount": 1,
 		"hasCloudData": false,
 		"swfVersion": "v454",
