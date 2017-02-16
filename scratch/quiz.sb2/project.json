@@ -1,5 +1,10 @@
 {
 	"objName": "Stage",
+	"variables": [{
+			"name": "r",
+			"value": 2,
+			"isPersistent": false
+		}],
 	"sounds": [{
 			"soundName": "pop",
 			"soundID": 1,
@@ -26,8 +31,15 @@
 			"scripts": [[40,
 					5,
 					[["whenGreenFlag"],
+						["setVar:to:", "r", 0],
 						["doAsk", "Koji je glavni grad Hrvatske?"],
-						["doIf", ["=", ["answer"], "Zagreb"], [["say:", "Bravo!"]]]]]],
+						["doIf",
+							["=", ["answer"], "Zagreb"],
+							[["say:duration:elapsed:from:", "Bravo!", 2], ["changeVar:by:", "r", 1]]],
+						["doAsk", "Koji je glavni grad Francuske?"],
+						["doIf",
+							["=", ["answer"], "Pariz"],
+							[["say:duration:elapsed:from:", "Bravo!", 2], ["changeVar:by:", "r", 1]]]]]],
 			"sounds": [{
 					"soundName": "meow",
 					"soundID": 0,
@@ -63,11 +75,25 @@
 			"visible": true,
 			"spriteInfo": {
 			}
+		},
+		{
+			"target": "Stage",
+			"cmd": "getVar:",
+			"param": "r",
+			"color": 15629590,
+			"label": "r",
+			"mode": 1,
+			"sliderMin": 0,
+			"sliderMax": 100,
+			"isDiscrete": true,
+			"x": 5,
+			"y": 5,
+			"visible": true
 		}],
 	"info": {
 		"videoOn": false,
-		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
 		"flashVersion": "MAC 24,0,0,221",
+		"userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/56.0.2924.87 Safari\/537.36",
 		"scriptCount": 1,
 		"hasCloudData": false,
 		"swfVersion": "v454",
