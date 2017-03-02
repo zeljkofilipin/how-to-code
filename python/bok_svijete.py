@@ -1,0 +1,2 @@
+print("bok")
+print("svijete")
